@@ -93,7 +93,7 @@ for filename in os.listdir(directory):
         # cv2.imshow("Image", image)
         # cv2.waitKey(0)
 
-        # after finding the names we nee dto seperate the image in a seperate directory
+        # after finding the names we need to seperate the image in a seperate directory
         for name in names:
             if name == args["target"]:
                 print("found",name,args["target"])
